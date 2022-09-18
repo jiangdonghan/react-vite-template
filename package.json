@@ -12,7 +12,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,css,scss,html,md,tsx,ts,sass,less,json}": [
+    "*.{js,css,scss,html,tsx,ts,sass,less,json}": [
       "eslint",
       "prettier --list-different"
     ]

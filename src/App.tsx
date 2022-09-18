@@ -1,7 +1,7 @@
 import './App.scss'
 
 function App() {
-  return <div>rere</div>
+  return <div>App</div>
 }
 
 export default App
