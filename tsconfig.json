@@ -3,9 +3,10 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client", "jest", "testing-library__jest-dom"],
     "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,6 +17,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "./jest.setup.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
